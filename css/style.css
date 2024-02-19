@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Single Day', cursive;
+    color: rgb(36, 34, 34);
+}
+
+.background-color {
+    background-color: rgba(219, 186, 186, 0.6);
+}
+
+.background-color-light {
+    background-color: rgba(191, 153, 153, 0.2);
+}
+
+.background-color-dark {
+    background-color: rgba(207, 173, 173, 0.6);
+
+}
+
+.text-Header {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(32, 29, 29);
+
+}
+
+.text-Header li:hover {
+    background-color: rgb(219, 186, 186);
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+.text-p {
+    font-size: 14px;
+    color: rgb(74, 64, 64);
+}
+
+.btn-info {
+    background-color: rgb(225, 191, 191);
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: rgb(188, 157, 157);
+    transform: scale(1.1);
+
+
+}
+
+.btn-info:active {
+    background-color: rgb(166, 125, 125) !important;
+
+}
+
+.logo-img:hover {
+    transform: scale(1.1);
+
+}
+
+.textHeader-dropdown {
+    font-family: 'Single Day', cursive;
+    font-size: 15px;
+    color: rgb(52, 43, 43);
+    background-color: rgba(219, 186, 186, 0.3);
+}
+
+.form-header {
+    background-color: rgba(219, 186, 186, 0.5);
+    font-family: 'Single Day', cursive;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.btn-submit {
+    background-color: rgba(219, 186, 186, 0.5);
+    font-family: 'Single Day', cursive;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.btn-submit:hover {
+    background-color: rgba(219, 186, 186, 0.9);
+    border: none;
+    transform: scale(1.1);
+
+}
+
+.btn-submit:active {
+    background-color: #ac8c8c !important;
+
+}
+
+.btn-close:hover {
+    transform: scale(1.1);
+}
+
+.btn-close:active {
+    border: 2px solid #c7a3a3 !important;
+}
+
+.login-form {
+    font-family: 'Single Day', cursive;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.form-check-input {
+    background-color: #caa7a7 !important;
+    font-size: 15px;
+    border: none;
+}
+
+.form-check-input:hover {
+    background-color: #ab8c8c !important;
+    font-size: 15px;
+}
+
+/********************************************************************/
+.accordion-button:focus {
+    background-color: #c7a3a3 !important;
+}
+
+
+/*****************************************/
+
+
+
+
+
+.icons-form {
+    z-index: 10;
+    top: 170px;
+}
+
+.icons-form i {
+    line-height: 80px;
+    color: rgba(188, 135, 135, 0.8);
+
+}
+
+.icons-form-link:hover {
+    color: rgba(150, 106, 106, 0.4);
+    transform: scale(1.1);
+}
+
+.carousel-sec {
+    margin-top: 70px;
+}
+
+.caption-style {
+    background-color: rgba(199, 163, 163, 0.5);
+    border-radius: 15px;
+}
+
+
+.background-img1 {
+
+    background-image: url(../images/backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.custom-hover {
+    position: relative;
+    transform: scale(1);
+    height: 520px;
+}
+
+@media (width<=600px) {
+    .custom-hover
+    {
+
+        width: 400px;
+    }
+}
+.custom-hover:hover {
+    transform: scale(1.05);
+}
+
+.custom-hover::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(199, 163, 163, 0);
+    transition: 1.5s;
+}
+
+.custom-hover:hover::before {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(199, 163, 163, 0.2);
+
+
+}
+
+.custom-hover::after {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(199, 163, 163, 0);
+    transition: 1.5s;
+}
+
+.custom-hover:hover::after {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(199, 163, 163, 0.2);
+
+
+}
+
+.custom-img {
+    width: 100%;
+    height: 70%;
+}
+
+.btn-card {
+    position: absolute;
+    z-index: 10;
+    bottom: 55px;
+    right: 13px;
+
+}
+
+.background-img2 {
+    background-image: url(../images/backgroundimage3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-img-overlay {
+    position: absolute;
+    background-color: rgba(84, 69, 69, 0.5);
+}
+
+.custom-card {
+    transition: 0.2;
+}
+
+.custom-card:hover .card-img-overlay {
+    background-color: rgba(84, 69, 69, 0.7);
+
+}
+
+.custom-card:hover {
+
+    transform: scale(0.9);
+
+}
+
+.card-body {
+    transition: 0.3s;
+}
+
+.custom-card:hover .card-body {
+    padding-top: 40px !important;
+    padding-left: 50px;
+
+}
+
+.Directorbtn {
+    border: none;
+}
+
+
+
+.OfferDetailsRight {
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgba(190, 164, 164, 0.4), rgba(254, 241, 243, 0.5), rgba(248, 242, 243, 0.5));
+
+}
+
+.OfferDetailsLeft {
+    overflow: hidden;
+    background-image: linear-gradient(to left, rgba(190, 180, 164, 0.4), rgba(250, 254, 241, 0.5), rgba(248, 242, 243, 0.5));
+}
+
+.OfferimgDivRight {
+    width: 25%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%);
+}
+
+
+
+.OfferimgDivLeft {
+    width: 25%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 82% 100%, 0 100%);
+}
+
+.Offerimg {
+    transition: 0.7s;
+
+}
+
+.OfferDetailsRight:hover .Offerimg,
+.OfferDetailsLeft:hover .Offerimg {
+    transform: scale(1.1);
+}
+
+.OfferHeader {
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 75%;
+}
+
+.OfferSpanRight {
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(196, 154, 154);
+    width: 60px;
+    height: 5px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.OfferSpanLeft {
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(196, 193, 154);
+    width: 60px;
+    height: 5px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.OfferDetailsRight:hover .OfferSpanRight,
+.OfferDetailsLeft:hover .OfferSpanLeft {
+    width: 120px;
+}
+
+@media (width <=768px) {
+
+    .OfferDetailsRight {
+
+        height: 700px !important;
+    }
+
+    .OfferDetailsLeft {
+        height: 700px !important;
+    }
+
+    .OfferimgDivRight {
+        width: 100%;
+        height: 300px;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .OfferimgDivLeft {
+        width: 100%;
+        height: 300px;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .OfferHeader {
+        width: 100%;
+        height: 300px;
+        padding-top: 0;
+
+    }
+
+}
+
+
+.offerIcons li {
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    background-color: rgb(166, 166, 166);
+    border-radius: 7px;
+    transition: 0.7s;
+}
+
+.offerbtnRight a,
+.offerbtnRight i {
+    text-decoration: none;
+    color: rgb(109, 84, 84);
+    transition: 0.7s;
+}
+
+.offerIcons li:hover {
+    background-color: #676767;
+}
+
+.offerbtnRight:hover {
+    background-color: rgb(196, 154, 154) !important
+}
+
+
+.offerbtnLeft a,
+.offerbtnLeft i {
+    text-decoration: none;
+    color: rgb(134, 132, 105);
+    transition: 0.7s;
+}
+
+.offerbtnLeft:hover {
+    background-color: rgb(196, 193, 154) !important
+}
+
+.Offerimg {
+    max-width: 100%;
+    height: 350px;
+}
+
+/**************************************************************************************************/
+
+
+.userfbBodyLink {
+    text-decoration: none;
+    color: #9b7979;
+}
+
+.userfbBodyLink:hover {
+    color: #d8a7a7;
+
+}
+
+.test+.tooltip>.tooltip-inner {
+    background-color: #d29f91 !important;
+    color: #FFFFFF;
+    border: 1px solid green;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*****************************************************************/
+
+.socialWhats {
+    width: 250px;
+
+    margin-bottom: 20px;
+    margin-right: 40px;
+    height: 200px;
+    color: #9b7979;
+
+}
+
+.socialWhats i {
+    display: block;
+    font-size: 80px;
+}
+
+.socialWhats a {
+    text-decoration: none;
+    color: #9b7979;
+}
+
+.socialWhats:first-child:hover a {
+    color: #3b5998;
+}
+
+.socialWhats .icon {
+    transition: 1s;
+}
+
+.socialWhats:first-child:hover .icon {
+    text-shadow: 4px 7px 40PX #3b5998
+}
+
+.socialWhats:first-child i {
+    color: #3b5998
+}
+
+.socialWhats:nth-child(2) i {
+    color: rgb(108, 219, 121);
+}
+
+.socialWhats:nth-child(2):hover .icon {
+    text-shadow: 4px 7px 40PX rgb(108, 219, 121)
+}
+
+.socialWhats:nth-child(2):hover a {
+    color: rgb(108, 219, 121);
+}
+
+
+.socialWhats:nth-child(3) i {
+    color: #f73344;
+
+}
+
+.socialWhats:nth-child(3):hover .icon {
+    text-shadow: 4px 7px 40PX #f73344
+}
+
+.socialWhats:nth-child(3):hover a {
+    color: #f73344;
+}
+
+
+.socialWhats:nth-child(4) i {
+    color: rgb(91, 100, 193);
+}
+
+.socialWhats:nth-child(4):hover .icon {
+    text-shadow: 4px 7px 40PX rgb(91, 100, 193)
+}
+
+.socialWhats:nth-child(4):hover a {
+    color: rgb(91, 100, 193);
+}
+
+
+/****************************************************************************/
+.endOfsiteContent {
+    width: 450px;
+}
+
+.endOfsiteContent a {
+    text-decoration: none;
+}
+
+
+@media(width<=768px) {
+    .copyright {
+
+        color: #000000;
+
+    }
+
+    .copyright1 {
+
+        color: #000000;
+
+    }
+
+    .copyright2 {
+        display: block;
+        color: rgb(229, 167, 167);
+
+
+    }
+
+}
+
+@media(max-width:567px) {
+    .copyright {
+        display: block;
+        color: #765555;
+
+    }
+
+    .copyright1 {
+        display: block;
+        color: #a47f7f;
+
+    }
+
+    .copyright2 {
+        display: block;
+        color: rgb(229, 167, 167);
+
+
+    }
+
+}
